@@ -2,7 +2,7 @@
 
 public class Main  {
     public static void main(String[] args) {
-        //   task 1
+        //   task 1.
         int weight [] = new int[3];
         weight [0]=1;
         weight [1]=2;
