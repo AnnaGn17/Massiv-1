@@ -10,17 +10,29 @@ public class Main  {
         double drob [] = {1.57, 7.654, 9.986};
         char arch [] = {65, 66, 67};
 //   task 2
-        for (int i = 0; i < weight.length ; i ++) {
-            if (i == weight.length) System.out.println(weight[i]);
-            else System.out.print(weight[i] + ",");}
+        int s = weight.length - 1;
+        for (int i = 0; i <= s; i ++) {
+            if (i == s)
+                System.out.println(weight[i]);
+            else System.out.print(weight[i] + ",");
 
-        for (int k = 0; k < drob.length; k++) {
-            if (k == drob.length) System.out.println(drob[k]);
-            else System.out.print(drob[k] + ",");}
+        }
 
-        for (int l = 0; l < arch.length; l++) {
-            if (l == arch.length) System.out.println(arch[l]);
-            else System.out.print(arch[l] + ",");}
+        int z = drob.length - 1;
+        for (int k = 0; k <= z; k++) {
+            if (k == z)
+                System.out.println(drob[k]);
+            else System.out.print(drob[k] + ",");
+
+        }
+
+        int x = arch.length - 1;
+        for (int l = 0; l <= x; l++) {
+            if (l == x)
+                System.out.println(arch[l]);
+            else System.out.print(arch[l] + ",");
+
+        }
 //   task 3
         int h = weight.length - 1;
         for (int q = h; q >= 0; q--) {
